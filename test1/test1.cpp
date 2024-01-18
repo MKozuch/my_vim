@@ -2,12 +2,18 @@
 
 #include <iostream>
 
-void kek(){
-  std::cout << "asdf" << std::endl;
+void kek() { 
+  std::cout << "asdf" << std::endl; 
 }
 
-int main(){
+char k = 11111111;
 
-  kek()
+
+int main() {
+
+  if (auto i = 0; i < 100)
+    std::cout << "asdf" << std::endl;
+
+  kek();
   return 0;
 }
